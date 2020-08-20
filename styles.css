@@ -120,6 +120,16 @@ h2 {
     left: 15%;
   }
 }
+@media (max-width: 500px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+  .con-h2 {
+    width: 80%;
+    left: 10%;
+  }
+}
+/* btn */
 @media (max-width: 1124px) {
   .btn {
     width: 28%;
@@ -130,3 +140,12 @@ h2 {
     width: 35%;
   }
 }
+@media (max-width: 500px) {
+  .btn {
+    width: 40%;
+  }
+}
+@media (max-width: 392px) {
+  .btn {
+    width: 50%;
+  }
